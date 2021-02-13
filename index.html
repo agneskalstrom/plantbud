@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/reset.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>PlantBud</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#">
+                <div class="logo"><img src="images/leaf.svg"> <h1>PlantBud</h1></div>
+            </a>
+            <div class="menu">
+                <a href="#"><div id="listing"><i class="fas fa-camera"></i> Create listing</div></a>
+                <a href="#"><div id="register"><i class="fas fa-user"></i> Register account / Sign in</div></a>
+            </div>
+        </div>
+    </nav>
+    <header id="top">
+        <div class="container">
+            <h2>Donate, swap and adopt plants in your local area</h2>
+            <a href="#map"><button class="greenbutton">Get started <i class="fas fa-angle-right"></i></button></a>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="left"></div>
+            <div class="right">
+                <h3>What is PlantBud?</h3>
+                <p>PlantBud is an online community and marketplace for house plant enthusiasts looking to donate, swap and adopt plants in their area.</p>
+                <p>We believe plants are friends and should be treated with the respect they deserve. Don’t throw your healthy house plants away – let another PlantBud adopt them!</p>
+                <p>Agnes Kalström, plant lover and cat-mother-to-be, founded PlantBud in late 2020 as part of the module Design for the User at Hyper Island in Stockholm.</p>
+                <button class="greenbutton">Become a PlantBud</button>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <div class="container">
+            <h2>Find plants near you</h2>
+            <div class="map-container">
+                <input type="text" placeholder="Enter your location">
+                <div class="plant-info">
+                    <div class="bubble">
+                        <div class="image"></div>
+                        <div class="info">
+                            <span class="location">Hammarby sjöstad, Stockholm</span>
+                            <p class="title">Chinese Money Plant</p>
+                            <p class="latin">Pilea Peperomioides</p>
+                            <p class="price">Free</p>
+                            <div class="user">
+                                <img src="images/userpic.jpg" class="userpic">
+                                <div class="name-and-rating">
+                                    <p class="username">Agnes K.</p>
+                                    <div class="user-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                </div>
+                            </div>
+                            <button class="greenbutton">I'm interested!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+            <div class="customer-review">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="review-text">I found my dream plant through this website – some lunatic was giving away an enormous Monstera Variegata for free! And they just so happened to live across the street from me!</p>
+                <span class="customer-name">Michael Scott</span>
+            </div>
+            <div class="customer-review">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="review-text">I’ve been trading plants with interesting people all around my neighborhood and made some good friends in the process.</p>
+                <span class="customer-name">Creed Bratton</span>
+            </div>
+            <div class="customer-review">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="review-text">This website isn't great, I wish you were able to actually use it. I guess the developer didn’t have time to code it properly. But I'm giving it 5 stars anyway cus otherwise it looks bad.</p>
+                <span class="customer-name">Dwight Schrute</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-column">
+                <h4>Get started</h4>
+                <ul>
+                    <li>Register account</li>
+                    <li>Search for plants</li>
+                    <li>Sign in</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Help and FAQs</h4>
+                <ul>
+                    <li>Create listing</li>
+                    <li>Plant search</li>
+                    <li>Customer service</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+            </div>
+            <div class="footer-column">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
